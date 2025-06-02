@@ -1,0 +1,19 @@
+Market: Ganderbal
+  Cherry Large (2019): 2019-05-13 to 2019-06-28
+  Cherry Large (2020): 2020-05-13 to 2020-06-28
+  Cherry Large (2021): 2021-05-13 to 2021-06-28
+  Cherry Large (2022): 2022-05-13 to 2022-06-28
+  Cherry Large (2023): 2023-05-13 to 2023-06-28
+  Cherry Large (2024): 2024-05-13 to 2024-06-28
+  Cherry Medium (2019): 2019-05-13 to 2019-06-28
+  Cherry Medium (2020): 2020-05-13 to 2020-06-28
+  Cherry Medium (2021): 2021-05-13 to 2021-06-28
+  Cherry Medium (2022): 2022-05-13 to 2022-06-28
+  Cherry Medium (2023): 2023-05-13 to 2023-06-28
+  Cherry Medium (2024): 2024-05-13 to 2024-06-28
+  Cherry Small (2019): 2019-05-13 to 2019-06-28
+  Cherry Small (2020): 2020-05-13 to 2020-06-28
+  Cherry Small (2021): 2021-05-13 to 2021-06-28
+  Cherry Small (2022): 2022-05-13 to 2022-06-28
+  Cherry Small (2023): 2023-05-13 to 2023-06-28
+  Cherry Small (2024): 2024-05-13 to 2024-06-28

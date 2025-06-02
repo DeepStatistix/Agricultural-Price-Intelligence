@@ -1,0 +1,81 @@
+Market: Shopian
+  American A (2017): 2017-10-01 to 2017-11-30
+  American A (2018): 2018-10-01 to 2018-11-30
+  American A (2019): 2019-10-01 to 2019-11-30
+  American A (2020): 2020-10-01 to 2020-11-30
+  American A (2021): 2021-10-01 to 2021-11-30
+  American A (2022): 2022-10-01 to 2022-11-30
+  American A (2023): 2023-10-01 to 2023-11-30
+  American A (2024): 2024-10-01 to 2024-11-30
+  American B (2017): 2017-10-01 to 2017-11-30
+  American B (2018): 2018-10-01 to 2018-11-30
+  American B (2019): 2019-10-01 to 2019-11-30
+  American B (2020): 2020-10-01 to 2020-11-30
+  American B (2021): 2021-10-01 to 2021-11-30
+  American B (2022): 2022-10-01 to 2022-11-30
+  American B (2023): 2023-10-01 to 2023-11-30
+  American B (2024): 2024-10-01 to 2024-11-30
+  Cherry Large (2019): 2019-05-20 to 2019-07-10
+  Cherry Large (2020): 2020-05-20 to 2020-07-10
+  Cherry Large (2021): 2021-05-20 to 2021-07-10
+  Cherry Large (2022): 2022-05-20 to 2022-07-10
+  Cherry Large (2023): 2023-05-20 to 2023-07-10
+  Cherry Large (2024): 2024-05-20 to 2024-07-10
+  Cherry Medium (2019): 2019-05-20 to 2019-07-10
+  Cherry Medium (2020): 2020-05-20 to 2020-07-10
+  Cherry Medium (2021): 2021-05-20 to 2021-07-10
+  Cherry Medium (2022): 2022-05-20 to 2022-07-10
+  Cherry Medium (2023): 2023-05-20 to 2023-07-10
+  Cherry Medium (2024): 2024-05-20 to 2024-07-10
+  Cherry Small (2019): 2019-05-20 to 2019-07-10
+  Cherry Small (2020): 2020-05-20 to 2020-07-10
+  Cherry Small (2021): 2021-05-20 to 2021-07-10
+  Cherry Small (2022): 2022-05-20 to 2022-07-10
+  Cherry Small (2023): 2023-05-20 to 2023-07-10
+  Cherry Small (2024): 2024-05-20 to 2024-07-10
+  Delicious A (2017): 2017-09-15 to 2017-12-31
+  Delicious A (2018): 2018-09-15 to 2018-12-31
+  Delicious A (2019): 2019-09-15 to 2019-12-31
+  Delicious A (2020): 2020-09-15 to 2020-12-31
+  Delicious A (2021): 2021-09-15 to 2021-12-31
+  Delicious A (2022): 2022-09-15 to 2022-12-31
+  Delicious A (2023): 2023-09-15 to 2023-12-31
+  Delicious A (2024): 2024-09-15 to 2024-12-31
+  Delicious B (2017): 2017-09-15 to 2017-12-31
+  Delicious B (2018): 2018-09-15 to 2018-12-31
+  Delicious B (2019): 2019-09-15 to 2019-12-31
+  Delicious B (2020): 2020-09-15 to 2020-12-31
+  Delicious B (2021): 2021-09-15 to 2021-12-31
+  Delicious B (2022): 2022-09-15 to 2022-12-31
+  Delicious B (2023): 2023-09-15 to 2023-12-31
+  Delicious B (2024): 2024-09-15 to 2024-12-31
+  Kullu delicious A (2017): 2017-09-01 to 2017-12-15
+  Kullu delicious A (2018): 2018-09-01 to 2018-12-15
+  Kullu delicious A (2019): 2019-09-01 to 2019-12-15
+  Kullu delicious A (2020): 2020-09-01 to 2020-12-15
+  Kullu delicious A (2021): 2021-09-01 to 2021-12-15
+  Kullu delicious A (2022): 2022-09-01 to 2022-12-15
+  Kullu delicious A (2023): 2023-09-01 to 2023-12-15
+  Kullu delicious A (2024): 2024-09-01 to 2024-12-15
+  Kullu delicious B (2017): 2017-09-01 to 2017-12-15
+  Kullu delicious B (2018): 2018-09-01 to 2018-12-15
+  Kullu delicious B (2019): 2019-09-01 to 2019-12-15
+  Kullu delicious B (2020): 2020-09-01 to 2020-12-15
+  Kullu delicious B (2021): 2021-09-01 to 2021-12-15
+  Kullu delicious B (2022): 2022-09-01 to 2022-12-15
+  Kullu delicious B (2023): 2023-09-01 to 2023-12-15
+  Kullu delicious B (2024): 2024-09-01 to 2024-12-15
+  Maharaji A (2017): 2017-10-01 to 2017-11-30
+  Maharaji A (2018): 2018-10-01 to 2018-11-30
+  Maharaji A (2019): 2019-10-01 to 2019-11-30
+  Maharaji A (2021): 2021-10-03 to 2021-11-30
+  Maharaji A (2022): 2022-10-01 to 2022-11-30
+  Maharaji A (2023): 2023-10-01 to 2023-11-30
+  Maharaji A (2024): 2024-10-01 to 2024-11-30
+  Maharaji B (2017): 2017-10-01 to 2017-11-30
+  Maharaji B (2018): 2018-10-01 to 2018-11-30
+  Maharaji B (2019): 2019-10-01 to 2019-11-30
+  Maharaji B (2021): 2021-10-03 to 2021-11-30
+  Maharaji B (2022): 2022-10-01 to 2022-11-30
+  Maharaji B (2023): 2023-10-01 to 2023-11-30
+  Maharaji B (2024): 2024-10-01 to 2024-11-30
