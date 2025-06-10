@@ -48,4 +48,4 @@ pyyaml
 selenium
 fastapi
 uvicorn
-python-multipart 
+python-multipart
