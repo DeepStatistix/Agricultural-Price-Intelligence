@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Fruit Price Forecast</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; padding: 20px; background-color: #f4f7f6; }
+        .container { max-width: 800px; margin: auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        h1 { text-align: center; color: #2c5d3d; }
+        .controls { display: flex; gap: 15px; margin-bottom: 20px; flex-wrap: wrap; }
+        .controls label { font-weight: bold; }
+        .controls select, .controls button { padding: 8px; border-radius: 4px; border: 1px solid #ccc; }
+        #forecast-container { margin-top: 20px; padding: 15px; border: 1px solid #e0e0e0; border-radius: 4px; min-height: 100px; }
+        .loader { text-align: center; font-style: italic; color: #777; }
+        .error { color: #d9534f; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Live Fruit Price Forecast</h1>
+        <div class="controls">
+            <div>
+                <label for="market-select">Market:</label>
+                <select id="market-select">
+                    <option value="market_A">Market A</option>
+                    <!-- Add other markets -->
+                </select>
+            </div>
+            <div>
+                <label for="variety-select">Variety & Grade:</label>
+                <select id="variety-select">
+                    <option value="variety_X_grade_A">Variety X - Grade A</option>
+                    <option value="variety_Y_grade_B">Variety Y - Grade B</option>
+                    <!-- Add other varieties/grades -->
+                </select>
+            </div>
+            <div>
+                <label for="model-select">Model:</label>
+                <select id="model-select">
+                    <option value="prophet">Prophet</option>
+                    <option value="xgboost">XGBoost</option>
+                    <option value="lstm">LSTM</option>
+                    <!-- Add other models -->
+                </select>
+            </div>
+            <button onclick="updateForecast()">Get Forecast</button>
+        </div>
+        <div id="forecast-container">
+            <p class="loader">Select options and click "Get Forecast" to begin.</p>
+        </div>
+    </div>
+
+    <script>
+        const forecastContainer = document.getElementById('forecast-container');
+        let refreshInterval;
+
+        async function getForecast() {
+            const market = document.getElementById('market-select').value;
+            const varietyGrade = document.getElementById('variety-select').value;
+            const model = document.getElementById('model-select').value;
+
+            if (!market || !varietyGrade || !model) {
+                forecastContainer.innerHTML = '<p class="error">Please select all options.</p>';
+                return;
+            }
+            
+            forecastContainer.innerHTML = '<p class="loader">Loading forecast...</p>';
+
+            try {
+                const response = await fetch(`/forecast/${market}/${varietyGrade}/${model}`);
+                if (!response.ok) {
+                    const errorData = await response.json();
+                    throw new Error(errorData.detail || `HTTP error! Status: ${response.status}`);
+                }
+                const data = await response.json();
+                forecastContainer.innerHTML = ''; // Clear the loading message
+
+                // Display the forecast
+                const title = document.createElement('h4');
+                title.textContent = `Forecast for ${model} model:`;
+                forecastContainer.appendChild(title);
+
+                data.forEach(item => {
+                    const forecastItem = document.createElement('p');
+                    forecastItem.textContent = `Date: ${item.date}, Forecast: ${item.forecast.toFixed(2)}`;
+                    forecastContainer.appendChild(forecastItem);
+                });
+
+            } catch (error) {
+                console.error('Error fetching forecast:', error);
+                forecastContainer.innerHTML = `<p class="error">Could not load forecast: ${error.message}</p>`;
+            }
+        }
+
+        function updateForecast() {
+            // Clear any existing auto-refresh interval
+            if (refreshInterval) {
+                clearInterval(refreshInterval);
+            }
+            // Fetch the forecast immediately
+            getForecast();
+            // Set up a new auto-refresh interval (e.g., every 60 seconds)
+            refreshInterval = setInterval(getForecast, 60000);
+        }
+    </script>
+</body>
+</html>`
